@@ -1,8 +1,6 @@
 import User from "../model/userAuthSchema.js";
 import argon from "argon2"
 import jwt from"jsonwebtoken";
-// import config from 'dotenv'
-// require("dotenv").config();
 import dotenv from 'dotenv';
 dotenv.config();
 
